@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input{
+  @apply border p-2 bg-white
+}
+
+#root {
+  background-color: white;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
